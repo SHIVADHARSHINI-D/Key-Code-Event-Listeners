@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Code Event Listener</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="container">
+            <h1>Key Code Event Listener</h1>
+
+            <div class="landing-container">
+                <i>Press any key to generate key code information.</i>
+            </div>
+
+            <div class="key-code-container" style="display: none;">
+                <p>Key Code</p>
+                <h1 id="keyCode"></h1>
+                <p>Key Code Information</p>
+                <br>
+                <div class="key-code-information">
+                    <div class="group">
+                        <h2 id="eventKey"></h2>
+                        <span>event.key</span>
+                    </div>
+                    <div class="group">
+                        <h2 id="eventLocation"></h2>
+                        <span>event.location</span>
+                    </div>
+                    <div class="group">
+                        <h2 id="eventCode"></h2>
+                        <span>event.code</span>
+                    </div>
+                    <div class="group">
+                        <h2 id="eventWhich"></h2>
+                        <span>event.which</span>
+                    </div>
+                </div>
+    
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
